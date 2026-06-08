@@ -1,0 +1,27 @@
+// Links utili — New York 2026
+const linksData = {
+  "JFK Airport": "https://www.jfkairport.com/",
+  "Statue Cruises": "https://www.statuecruises.com/",
+  "Empire State Building": "https://www.esbnyc.com/",
+  "Top of the Rock": "https://www.rockefellercenter.com/top-of-the-rock/",
+  "One World Observatory": "https://www.oneworldobservatory.com/",
+  "9/11 Memorial": "https://www.911memorial.org/",
+  "Central Park": "https://www.centralparknyc.org/",
+  "American Museum of Natural History": "https://www.amnh.org/",
+  "The Metropolitan Museum of Art": "https://www.metmuseum.org/",
+  "MoMA": "https://www.moma.org/",
+  "Brooklyn Bridge Park": "https://www.brooklynbridgepark.org/",
+  "The High Line": "https://www.thehighline.org/",
+  "Chelsea Market": "https://www.chelseamarket.com/",
+  "Times Square": "https://www.timessquarenyc.org/",
+  "Broadway TKTS": "https://www.tdf.org/nyc-tkts/",
+  "Staten Island Ferry": "https://www.siferry.com/",
+  "MTA OMNY": "https://omny.info/",
+  "CityPASS New York": "https://www.citypass.com/new-york",
+  "Shake Shack": "https://www.shakeshack.com/",
+  "Katz's Delicatessen": "https://katzsdelicatessen.com/",
+  "Grimaldi's Pizza": "https://www.grimaldis-pizza.com/",
+  "Joe's Pizza": "https://www.joespizzanyc.com/",
+  "Nintendo NY": "https://www.nintendo.com/store/",
+  "Carmine's NYC": "https://www.carminesnyc.com/"
+};

@@ -1,0 +1,17 @@
+{
+  "name": "New York 2026 — Veronica, Erry, Teo & Asia",
+  "short_name": "NYC 2026",
+  "description": "Itinerario interattivo del viaggio a New York",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#F5F5F0",
+  "theme_color": "#1C1C1C",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
