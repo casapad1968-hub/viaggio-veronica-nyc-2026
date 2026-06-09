@@ -78,7 +78,20 @@
   }
   renderDayGrid();
 
-  // ==== DAY DETAIL ====
+  // ==== DAY PHOTOS ====
+  const dayPhotos = {
+    1: 'photos/day1.jpg',
+    2: 'photos/day2.jpg',
+    3: 'photos/day3.jpg',
+    4: 'photos/day4.jpg',
+    5: 'photos/day5.jpg',
+    6: 'photos/day6.jpg',
+    7: 'photos/day7.jpg',
+    8: 'photos/day8.jpg',
+    9: 'photos/day9.jpg'
+  };
+
+  // ==== DAY DETAIL =====
   window.showDay = function(idx) {
     const d = data.days[idx];
     const area = document.getElementById('day-detail-area');
@@ -108,6 +121,15 @@
           </div>
         </div>
         <div class="day-detail-inner">
+          <!-- Day photo -->
+          ${(() => {
+            const photo = dayPhotos[d.day];
+            if (photo) {
+              return '<div style="margin:0 -14px 12px;height:200px;overflow:hidden;border-radius:8px"><img src="' + photo + '" style="width:100%;height:100%;object-fit:cover" loading="lazy"></div>';
+            }
+            return '';
+          })()}
+
           <div class="day-nyc-subtitle">${d.date}</div>
 
           <div class="stats-grid">
